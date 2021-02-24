@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Animaciones web</title>
+</head>
+
+<body>
+    <section class="trancisiones">
+        <h1> Trancisiones </h1>
+        <div class="canasta">
+            <div class="pelota a">hola</div>
+            <div class="pelota b">daniel</div>
+        </div>
+        <div class="conten">
+            <div class="conten--pelota"></div>
+            <div class="conten--text">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <button class="button" type="button">prueba</button>
+        </div>
+    </section>
+
+    <!-- traformaciones -->
+    <h1>Transformaciones</h1>
+    <section class="transformaciones">
+        <h1>Ratate</h1>
+        <div class="container">
+            <div class="cuadrado">rotate(45deg)</div>
+            <div class="Ca">rotate(-90deg)</div>
+            <div class="Cb">rotateX(70deg)</div>
+            <div class="Cc">rotateY(70deg)</div>
+            <div class="Cd">rotateZ(50deg)</div>
+            <div class="Ce">rotateX(45deg) rotateY(45deg) rotateZ(-90deg)</div>
+            <div class="Cf">rotate3d(1,1,0,34deg)</div>
+        </div>
+    </section>
+
+    <!-- traslacion -->
+    <section class="translate">
+        <h1>translate</h1>
+        <div class="containerT">
+            <div class="cuadradoT">translate(100px, 100px)</div>
+            <div class="Ta">translate(-100px, -100px)</div>
+            <div class="Tb">translateX(100px)</div>
+            <div class="Tc">translateY(100px)</div>
+            <div class="Td">translateZ(-50px)</div>
+        </div>
+    </section>
+
+    <!-- Scale -->
+    <section class="scale">
+        <h1>Scale</h1>
+        <div class="continerS">
+            <div class="cuadradoS">scale(0)</div>
+            <div class="Sa">scale(1.5);</div>
+            <div class="Sb">scaleX(1.5);</div>
+            <div class="Sc">scaleY(.5);</div>
+            <div class="Sd">scale(2,.5)</div>
+            <div class="Se">scaleZ(.5);</div>
+        </div>
+    </section>
+    <!-- skew-elementos sesgados -->
+    <section class="skew">
+        <h1>skew</h1>
+        <div class="containerSK">
+            <div class="cuadradoSK">skew(45deg)</div>
+            <div class="SKa">skewX(60deg)</div>
+            <div class="SKb">skewY(60deg)</div>
+            <div class="SKc">skewY(60deg)</div>
+        </div>
+    </section>
+
+    <!-- punto de traformacion -->
+    <section class="puntoT">
+        <h1>punto de transformaicon</h1>
+        <div class="containerP">
+            <!-- <div class="cuadradoP"></div> -->
+            <div class="PaC">
+                <div class="Pa">rotateX(90) y transform-origin: 50% 0%;</div>
+                <div class="Painfe">interno</div>
+            </div>
+            <div class="PbC">
+                <div class="Pb">transform:translate( -200px, -200px), transform-origin: right bottom;</div>
+                <div class="Pbinfe">interno</div>
+            </div>
+            <div class="PcC">
+                <div class="Pc">transform: scale(0), transform-origin: left top;</div>
+                <div class="Pcinfe">interno</div>
+            </div>
+            <div class="PdC">
+                <div class="Pd">transform: skewY(90deg), transform-origin: left bottom</div>
+                <div class="Pdinfe">interno</div>
+            </div>
+        </div>
+    </section>
+
+    <h1>Animaciones con keyframes</h1>
+    <section class="animacionesKeyframes">
+        <h1>animaciones Css</h1>
+        <div class="conAnimaciones">
+            <div class="circulo" id="circulo"> 1er de animtions</div>
+        </div>
+    </section>
+
+    <section class="animacionesJS">
+        <h1>js element.animate</h1>
+        <div class="conJSanima">
+            <div class="pelotaJs" id="pelota"> 1er de animtions</div>
+        </div>
+    </section>
+
+
+    <section class="nombreLgo">
+        <h1>logo</h1>
+        <div class="logoCon">
+            <div class="nombre">
+                <p>D<span>aniel</span>P<span>rieto</span></p>
+            </div>
+            <div class="nombreCompleto">
+                <p>daniel prieto wilches</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="overlay active" id="overlay">
+        <div class="modal" id="modal">
+            <h1>esto es un modal</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum, veniam accusamus, nobis
+                delectus necessitatibus non cum magnam voluptate culpa optio accusantium asperiores! Quasi, quisquam.
+                Laboriosam similique doloribus et earum.</p>
+            <div class="content-buttons">
+                <button class="success" id="succes">lorem si</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="activador-modal">
+        <h1>activar modal</h1>
+        <div class="conActivador">
+            <button type="button" id="activar">activar</button>
+        </div>
+    </section>
+
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

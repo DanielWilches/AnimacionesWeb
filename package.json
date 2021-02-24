@@ -1,0 +1,23 @@
+{
+  "name": "animacones-web",
+  "version": "1.0.0",
+  "description": "estudio de animaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielWilches"
+  },
+  "keywords": [
+    "animaciones"
+  ],
+  "author": "daniel prieto wilches",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}
